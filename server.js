@@ -6,7 +6,7 @@ const dns = require("dns");
 const app = express();
 
 // Basic Configuration
-const port = 3000 || process.env.PORT;
+const port = process.env.PORT || 3000;
 
 app.use(cors());
 
